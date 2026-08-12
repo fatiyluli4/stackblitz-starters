@@ -18,11 +18,11 @@ header {
   align-items: flex-end;
   justify-content: space-between;
 }
-#Destinos {
-  width: 25px;
+#Destinos img {
+  width: 400px;
 }
-#avión {
-  width: 35px;
+#avión img {
+  width: 200px;
 }
 /*fin header*/
 /*comienzo de nav*/
