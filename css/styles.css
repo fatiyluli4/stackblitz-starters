@@ -12,17 +12,24 @@ body {
 header {
   background-color: rgb(168, 255, 236);
 }
+.activo {
+  /*border-bottom: #555 solid 3px;*/
+  box-shadow: 5px 4px darkgray;
+}
+nav a:hover{
+background-color: rgb(163, 150, 153);
+}
 #logos {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
-#Destinos img {
+#destinos img{
   width: 200px;
 }
-#avión img {
-  width: 200px;
+#avion img{
+  width: 300px;
 }
 /*fin header*/
 /*comienzo de nav*/
@@ -73,11 +80,57 @@ section div {
   margin: 1px;
 }
 #video {
-  width: 600px;
-  height: 300px;
+ width: 400px;
+ height: 300px;
 }
 #presentación {
-  height: 600px;
+  height: 300px;
+  width: 400px;
+
+}
+#viajes{
+  text-align: center;
+}
+#viajes img{
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+#miami{
+  text-align: center; 
+}
+#miami img{
+  width: 900px;
+  height: 506px;
+  text-align: center;
+}
+#washintongdc {
+  text-align: center;
+}
+#washintongdc img{
+  height: 506px;
+  text-align: center;
+}
+#mexico{
+  text-align: center;
+}
+#mexico img{
+  height: 506px;
+  text-align: center;
+}
+#brasil{
+  text-align: center;
+}
+#brasil img{
+  height: 506px;
+  text-align: center;
+}
+#españa{
+  text-align: center;
+}
+#españa img{
+  height: 506px;
+  text-align: center;
 }
 
 /*fin de main*/
