@@ -192,7 +192,7 @@ h2 {
 }
 
 table, tr, td,th{
-  border: solid red 2px;
+  border: solid rgb(0, 0, 0) 2px;
   border-collapse: collapse;
   width: 400px;
   margin: 0 auto;
