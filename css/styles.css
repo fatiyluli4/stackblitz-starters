@@ -132,9 +132,15 @@ section div {
   height: 506px;
   text-align: center;
 }
+#formulario{
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-color: rgb(83, 134, 179);
+  padding: 25px;
 #formulario input{
   width: 100%;
-  
+}
   }
   #formulario label{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
