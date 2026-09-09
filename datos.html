@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Destinos, tu Agencia de Viajes</title>
+    <title>Datos</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
 
@@ -22,49 +22,48 @@
     </header>
 
     <nav>
-      <a href="index.html" class="activo">Presentación</a>
+      <a href="index.html">Presentación</a>
       <a href="/ee.uu.html">EE.UU</a>
       <a href="/mexico.html">México</a>
       <a href="/brasil.html">Brasil</a>
       <a href="/españa.html">España</a>
+      <a href="datos.html"class="activo">Datos</a>
     </nav>
     <main>
-      <section id="presentacion">
-        <iframe
-          src="https://docs.google.com/presentation/d/e/2PACX-1vRLUEUwyma3SUXMUW549FlgKjZz6EY9JTNPp0IOaJVL-H1icNDSrD5T_QIV2CGXOw_TeTUi-DJbg97G/embed?start=false&loop=true&delayms=3000"width="100%" height="100%">
-        </iframe>
-      </section>
+      <h1>¿Qué tenés que hacer?</h1>
+    <p>Vos tenes que poner tu información acá abajo y nosotros hacemos el resto.<b>¡Felices vacaciónes!</b></p> 
+    <h2>Encuesta o datos de las entradas</h2>
+      <p>Ingrese sus datos para realizar la reserva de la entrada</p>
+    <section>
+       <div id="formulario">
+        <h2>Tus datos</h2>
+      <form action="#">
+
+      <label for="formnombre">Nombre</label>
+      <input type="text" name="formnombre" id="formnombre" maxlength="30" required placeholder="ingrese su nombre" minlength="3">
+      <label for="formapellido">Apellido</label>
+      <input type="text" name="formapellido" id="formapellido" maxlength="30" required placeholder="ingrese su Apellido" minlength="3">
+      <input id="formedad" type="number" placeholder="ingrese su edad">
+      <input id="formclave" type="password" placeholder="ingrese la palabra secreta">
+      <input type="email" placeholder="tymcszyszynf@gmail.com">
       
-      <section id="video">
-        <iframe
-        src="video/despegando.mp4"width="100%"height="100%">
-      </iframe>
-      </section>
-      
-      <h1>Nuestra agencia</h1>
-      <h2>¿Qué hacemos?</h2>
-      <p>
-        En esta Agencia de Viajes organisamos tus viages para que sean comodos y
-        baratos mostrandote ideas para viajar y hospedarte con las mejores
-        vistas a los mejores lugares. Nosotros te damos ideas para pasear ya que
-        en algunas zonas hay mucho turismo pero lo que ofrecemos es tranquilo y
-        para que te relajes de tus estresados dias.
-      </p>
-      <h2>¿Porqué te beneficia?</h2>
-      <p>
-        Te beneficia ya que vos nos decis lo que estas buscando para vacacionar
-        y nosotros te vamos dando ideas, vos elegís la que mejor te parezca sin
-        tener que ezforsarte buscando lugares, nos llamas y nos decís tus
-        espectativas. Nosotros te vamos dejando ideas de lugares para
-        hospedarte, comer y pasear. Te vamos a dar distintos precios y vos
-        decidís cual es el que mas te conviene. A su vez, nosotros te podemos
-        reservar la cantidad de días que vos quieras a tu nombre, y vos solo nos
-        tenes que decír la fecha.
-      </p>
-   
-      <div id="viajes">
-        <img src="img/viajes.png" alt="viajes" />
-      </div>
+
+      <input type="formf" type="radio" name="formsexo" value="Femenino">
+      <label for="fem">femenino</label>
+      <br>
+      <input type="formm" type="radio" name="formsexo" value="Masculino">
+      <label for="fem">masculino</label>
+      <br>
+      <input type="formn" type="radio" name="formsexo" value="Nodecirlo">
+      <label for="fem">no informo</label><br>
+
+      <label for="ubicaciones">Seleccione una ubicacion</label>
+      <select name="Ubicacion" id="formubi">
+        <option value="plateaa">Platea Alta</option>
+        <option value="plateam">Platea Media</option>
+        <option value="plateab">Platea Baja</option>
+
+      </select>
     </main>
     <footer>
       <div id="colegio">
