@@ -80,12 +80,12 @@ section div {
   margin: 1px;
 }
 #video {
- width: 600px;
- height: 600px;
+ width: 400px;
+ height: 300px;
 }
-#presentacion {
-  height: 600px;
-  width: 600px;
+#presentación {
+  height: 300px;
+  width: 400px;
 
 }
 #viajes{
