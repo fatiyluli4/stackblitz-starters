@@ -160,7 +160,7 @@ section div {
   font-size: 40px;
   
   }
-  .datos{
+  .avion{
     .contenedor-avion {
       background: none;
       border: none;
@@ -168,7 +168,7 @@ section div {
       cursor: pointer;
     }
     
-    .avion {
+    .avion1 {
       display: inline-block;
       /*  si se mueve, lo hace de forma suave en 0.6 segundos */
       transition: transform 0.6s ease-in-out; 
