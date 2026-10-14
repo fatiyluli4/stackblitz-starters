@@ -66,46 +66,18 @@
         <input type="submit">
 
       </select>
-      <meta charset="UTF-8" />
-      <title>Ejemplo de Animaciones CSS3</title>
-      <style>
-        /* Estilos generales para organizar la página */
-        body {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          height: 100vh;
-          background-color: #f0f2f5;
-          margin: 0;
-          font-family: sans-serif;
-        }
+     <!-- Buscá tu contenedor azul y poné el spinner adentro, al final de todo -->
+<div class="contenedor-azul">
+  
+  <!-- ... Todo el contenido actual de tu formulario ... -->
+  
+  <!-- El círculo de carga -->
+  <div class="cargando-overlay">
+    <div class="spinner"></div>
+  </div>
+</div>
 
-        .contenedor {
-          text-align: center;
-        }
-
-       
-        /* --- ANIMACIÓN 2: Spinner de Carga --- */
-        @keyframes girar {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
-        .icono-carga {
-          width: 50px;
-          height: 50px;
-          margin: 20px auto;
-          border: 5px solid #ccc;
-          border-top: 5px solid #3498db;
-          border-radius: 50%;
-          animation: girar 1s linear infinite;
-        }
-        </style>
-</meta>
-
+      
     </main>
     <footer>
       <div id="colegio">
