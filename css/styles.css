@@ -104,7 +104,8 @@ section div {
   width: 600px;
   height: 400px;
   text-align: center;
-  box-shadow: #555;
+  box-shadow: 15px 15px rgb(67, 66, 66)e2e;
+  border-radius: 15px;
 }
 #miami{
   text-align: center; 
