@@ -279,6 +279,6 @@ table, tr, td,th{
   }
   
  #th {
-  width: auto;
+  width: max-content;
   color: #6597a5;
  }
