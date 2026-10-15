@@ -278,4 +278,7 @@ table, tr, td,th{
     font-size: 40px;
   }
   
- 
+ #th {
+  width: auto;
+  color: #6597a5;
+ }
