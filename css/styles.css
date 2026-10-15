@@ -168,8 +168,9 @@ section div {
     background-color: #eee; 
     padding: 5px 10px;
      border-radius: 4px; 
-     font-size: 30px; /* Tamaño */
-      cursor: pointer; } 
+     font-size: 30px; 
+      cursor: pointer;
+     } 
       
       /* ESTILO PARA EL AVIÓN */ 
       .avion { display: inline-block; 
@@ -177,8 +178,12 @@ section div {
         
         /* Cuando tocas el cuadrado, el avión de adentro GIRA */
          .contenedor-avion:hover .avion { 
-          transform: rotate(360deg); }
-  
+          transform: rotate(360deg); 
+        }
+  .th {
+    width: auto;
+    color: #6597a5;
+  }
 
   
   
