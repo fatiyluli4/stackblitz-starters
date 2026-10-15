@@ -98,12 +98,13 @@ section div {
 }
 #viajes{
   text-align: center;
-  box-shadow: #555;
+ 
 }
 #viajes img{
   width: 600px;
   height: 400px;
   text-align: center;
+  box-shadow: #555;
 }
 #miami{
   text-align: center; 
