@@ -14,10 +14,10 @@ header {
 }
 .activo {
   /*border-bottom: #555 solid 3px;*/
-  box-shadow: 5px 4px darkgray;
+  box-shadow: 5px 4px rgb(105, 158, 169);
 }
 nav a:hover{
-background-color: rgb(163, 150, 153);
+background-color: rgb(165, 249, 249);
 }
 #logos {
   display: flex;
