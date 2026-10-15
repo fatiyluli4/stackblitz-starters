@@ -90,10 +90,12 @@ section div {
 #video {
  width: 600px;
  height: 600px;
+ text-align: center;
 }
 #presentacion {
   height: 600px;
   width: 600px;
+  text-align: center;
 
 }
 #viajes{
