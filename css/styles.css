@@ -73,7 +73,7 @@ nav a[aria-current='page'] {
 section {
   width: 900px;
   padding: 20px;
-  background-color: #555;
+  background-color:deepskyblue 
   margin: 0 auto;
   margin-bottom: 15px;
   display: flex;
@@ -98,6 +98,7 @@ section div {
 }
 #viajes{
   text-align: center;
+  box-shadow: #555;
 }
 #viajes img{
   width: 600px;
@@ -160,26 +161,24 @@ section div {
   font-size: 40px;
   
   }
-  .avion{
-    .contenedor-avion {
-      background: none;
-      border: none;
-      font-size: 50px; 
-      cursor: pointer;
-    }
-    
-    .avion1 {
-      display: inline-block;
-      /*  si se mueve, lo hace de forma suave en 0.6 segundos */
-      transition: transform 0.6s ease-in-out; 
-    }
-    
-    /* LA ANIMACIÓN: Cuando tocás o pasás el mouse por el contenedor gira 360 */
-    .contenedor-avion:hover .avion,
-    .contenedor-avion:focus .avion {
-      transform: rotate(360deg); 
-    }
-  }
+  .contenedor-avion { 
+    display: inline-block; 
+    background-color: #eee; 
+    padding: 5px 10px;
+     border-radius: 4px; 
+     font-size: 30px; /* Tamaño */
+      cursor: pointer; } 
+      
+      /* ESTILO PARA EL AVIÓN */ 
+      .avion { display: inline-block; 
+        transition: transform 0.6s ease-in-out; /* Hace que el giro sea suave */ } 
+        
+        /* Cuando tocas el cuadrado, el avión de adentro GIRA */
+         .contenedor-avion:hover .avion { 
+          transform: rotate(360deg); }
+  
+
+  
   
 /*fin de main*/
 /*comienzo de footer*/
