@@ -61,7 +61,7 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: #6d6a6a;
 }
 
 nav a[aria-current='page'] {
@@ -73,7 +73,7 @@ nav a[aria-current='page'] {
 section {
   width: 900px;
   padding: 20px;
-  background-color: #555555;
+  background-color: #6597a5;
   margin: 0 auto;
   margin-bottom: 15px;
   display: flex;
