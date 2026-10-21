@@ -172,12 +172,14 @@ section div {
       cursor: pointer;
      } 
       
-      /* ESTILO PARA EL AVIÓN */ 
-      .avion { display: inline-block; 
-        transition: transform 0.6s ease-in-out; /* Hace que el giro sea suave */ } 
+      /* Estilo para el avión */ 
+      .avion {
+         display: inline-block; 
+        transition: transform 0.6s ease-in-out;
+       } 
         
         /* Cuando tocas el cuadrado, el avión de adentro GIRA */
-         .contenedor-avion:hover .avion { 
+         .contenedor-avion:hover .avion   { 
           transform: rotate(360deg); 
         }
   .th {
@@ -250,6 +252,8 @@ table, tr, td,th{
   border-collapse: collapse;
   width: 400px;
   margin: 0 auto;
+  color: rgb(0, 0, 0);
+  
   }
   tr :hover{
   background-color: #2a5c48;
