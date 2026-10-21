@@ -252,7 +252,7 @@ table, tr, td,th{
   margin: 0 auto;
   }
   tr :hover{
-  background-color: #555;
+  background-color: #5c2a2a;
   }
 /*Datos*/
   #formulario {
@@ -278,7 +278,7 @@ table, tr, td,th{
     font-size: 40px;
   }
   
- #th {
+ #table {
   width: max-content;
   color: #6597a5;
  }
